@@ -1,11 +1,11 @@
 ---
 name: deploy-app
-description: Publish the user's website or web app to a public address on dialektai.org with the Dialekt Host tools. Use when the user asks to deploy, publish, host, put online, share a link to, or get a URL for a site or page they built; also to update, roll back, stop or delete an already published project.
+description: Publish the user's website or web app to a public address on dialektai.org with the Orikami Host tools. Use when the user asks to deploy, publish, host, put online, share a link to, or get a URL for a site or page they built; also to update, roll back, stop or delete an already published project.
 ---
 
-# Publish with Dialekt Host
+# Publish with Orikami Host
 
-Dialekt Host serves static sites (HTML, CSS, JS, images) at `https://<name>.dialektai.org`. Backend processes and databases are not available yet: if the project needs a server or a database, say so plainly and offer to publish the static part.
+Orikami Host serves static sites (HTML, CSS, JS, images) at `https://<name>.dialektai.org`. Backend processes and databases are not available yet: if the project needs a server or a database, say so plainly and offer to publish the static part.
 
 ## Steps
 

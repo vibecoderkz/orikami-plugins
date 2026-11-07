@@ -1,10 +1,14 @@
+Orikami Host plugin
 Copyright (c) 2026 Dias Zhumagaliyev, https://dias.now. All rights reserved.
 
-Permission is granted to install and use this plugin, unmodified, to connect your
-own AI agent to the Dialekt Host service (https://host.dialektai.org), provided
-that this notice and the attribution "Developed by Dias Zhumagaliyev,
-https://dias.now" are kept. Copying the files for any other purpose,
-modification, redistribution and use with other services require written
-permission: hello@dias.now.
+This plugin (its manifests, skills and documentation) is proprietary software.
+You may install and use it, unmodified, to connect your own AI agent to the
+Orikami Host service (https://host.dialektai.org). You may not copy,
+redistribute, sublicense, resell or publish it, or build derivative works from
+it, without written permission from the author: hello@dias.now.
 
-The plugin is provided "as is", without warranty of any kind.
+The software is provided "as is", without warranty of any kind.
+
+The Orikami Host service is governed separately by its Terms of Service
+(https://host.dialektai.org/en/terms) and Privacy Policy
+(https://host.dialektai.org/en/privacy).

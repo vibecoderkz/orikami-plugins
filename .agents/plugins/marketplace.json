@@ -1,7 +1,7 @@
 {
-  "name": "dialekt-plugins",
+  "name": "orikami-plugins",
   "interface": {
-    "displayName": "Dialekt plugins"
+    "displayName": "Orikami plugins"
   },
   "plugins": [
     {
@@ -11,7 +11,7 @@
         "path": "./plugins/dialekt-host-codex"
       },
       "interface": {
-        "displayName": "Dialekt Host"
+        "displayName": "Orikami Host"
       }
     }
   ]

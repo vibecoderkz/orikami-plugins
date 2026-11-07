@@ -1,7 +1,7 @@
 {
   "name": "dialekt-host",
-  "displayName": "Dialekt Host",
-  "version": "0.2.2",
+  "displayName": "Orikami Host",
+  "version": "0.2.3",
   "description": "Publish what you build with your AI agent to <name>.dialektai.org: describe it, the agent deploys it and returns the address.",
   "author": {
     "name": "Dias Zhumagaliyev",
@@ -9,7 +9,7 @@
     "url": "https://dias.now"
   },
   "homepage": "https://host.dialektai.org",
-  "repository": "https://github.com/vibecoderkz/dialekt-plugins",
+  "repository": "https://github.com/vibecoderkz/orikami-plugins",
   "license": "UNLICENSED",
   "keywords": [
     "hosting",

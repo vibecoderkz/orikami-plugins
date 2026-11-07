@@ -1,5 +1,5 @@
 {
-  "name": "dialekt-plugins",
+  "name": "orikami-plugins",
   "owner": {
     "name": "Dias Zhumagaliyev",
     "email": "hello@dias.now"
@@ -11,5 +11,5 @@
       "description": "Publish what you build with your AI agent to <name>.dialektai.org."
     }
   ],
-  "description": "Plugins from Dialekt: publish what your AI agent builds to your own address."
+  "description": "Plugins from Orikami: publish what your AI agent builds to your own address."
 }

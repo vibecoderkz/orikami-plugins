@@ -1,6 +1,6 @@
-# Dialekt plugins
+# Orikami plugins
 
-Plugins for Claude Code, Claude Desktop and Codex from Dialekt.
+Plugins for Claude Code, Claude Desktop and Codex from Orikami.
 
 ## dialekt-host
 
@@ -9,7 +9,7 @@ Publish what your AI agent builds to your own address, `https://<name>.dialektai
 Setup, examples and the data it sends: [plugins/dialekt-host/README.md](plugins/dialekt-host/README.md)
 
 ```
-/plugin marketplace add vibecoderkz/dialekt-plugins
+/plugin marketplace add vibecoderkz/orikami-plugins
 /plugin install dialekt-host
 ```
 
