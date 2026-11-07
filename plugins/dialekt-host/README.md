@@ -1,4 +1,4 @@
-# Dialekt Host plugin
+# Orikami Host plugin
 
 Publish what you build with Claude Code or Codex to `https://<name>.dialektai.org`.
 
@@ -9,14 +9,14 @@ Publish what you build with Claude Code or Codex to `https://<name>.dialektai.or
 **Claude Code**
 
 ```
-/plugin marketplace add vibecoderkz/dialekt-plugins
+/plugin marketplace add vibecoderkz/orikami-plugins
 /plugin install dialekt-host
 ```
 
 **Codex**
 
 ```
-codex plugin marketplace add vibecoderkz/dialekt-plugins
+codex plugin marketplace add vibecoderkz/orikami-plugins
 ```
 
 Then install `dialekt-host`. The Codex build needs a token (OAuth is not supported there yet): create one at https://host.dialektai.org (Tokens) and export `DIALEKT_HOST_TOKEN=dlk_...` before starting Codex. Do not paste the token into the chat.
@@ -41,13 +41,13 @@ Then ask your agent: "publish this site".
 
 The plugin adds one remote MCP server, `https://mcp.dialektai.org/mcp`, and one skill (`deploy-app`). It runs no local code and starts no local processes.
 
-When you ask your agent to publish, it sends the following to Dialekt Host and nothing else:
+When you ask your agent to publish, it sends the following to Orikami Host and nothing else:
 
 - the files of the site you chose to publish (HTML, CSS, JS, images), either inline or as an archive uploaded to a one-time URL;
 - the project name and the actions you ask for (create, deploy, stop, resume, delete, status);
 - an access token issued after you press **Allow** (OAuth 2.1, one hour, refreshable; revocable in the dashboard).
 
-Dialekt Host stores your email, hashes of tokens and sessions, the published files and an activity log. Everything you publish is public at `https://<name>.dialektai.org`. The plugin does not read your other files, your environment or your conversation; the agent decides what to upload when you ask it to publish. Deleting a project needs a separate permission that you grant on the consent page. Deleted sites and accounts are kept in an archive for 30 days and then erased from disk.
+Orikami Host stores your email, hashes of tokens and sessions, the published files and an activity log. Everything you publish is public at `https://<name>.dialektai.org`. The plugin does not read your other files, your environment or your conversation; the agent decides what to upload when you ask it to publish. Deleting a project needs a separate permission that you grant on the consent page. Deleted sites and accounts are kept in an archive for 30 days and then erased from disk.
 
 - Privacy Policy: https://host.dialektai.org/en/privacy
 - Terms of Service: https://host.dialektai.org/en/terms
